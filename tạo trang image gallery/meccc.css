@@ -1,0 +1,44 @@
+.logo img {
+	 margin-left: auto;
+  display: block;
+  margin-right: auto;
+
+
+
+}
+.anh1 img {
+	height: 200px;
+	width: 1100px;
+	box-sizing: border-box;
+	margin-left: auto;
+  display: block;
+  margin-right: auto;
+}
+.anh2 img {
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+
+}
+#mane-menu a { 
+	color: white;
+	font-size: 15px;
+	padding: 20px;
+	font-style: italic;
+	text-align: center;
+	background: black;
+
+
+}
+#xe1 {
+     float: left;
+     color: red;
+     width: 30%;
+     padding: 15px;
+     padding-left: 1.5em;
+
+     
+
+
+     
+}
