@@ -23,12 +23,46 @@ body {
      max-width: 1200px;
      margin: auto;
      box-sizing: border-box;
-     background-color: red;
-}
-.anh1 img{
-	height: 200px;
-    
 
-       
-    
-    
+
+}
+#anh1 img{
+float: left;
+    height: 200px;
+    float: left;
+    padding: 1%;
+    margin: 5px auto;
+    width: 30%;
+}
+
+.banh1 img {
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+.banh1:hover img {
+    opacity: 0.5;
+}
+.banh2:hover img {
+    transform: scale(1.2);
+    box-shadow: 2px 1px 10px 0px rgba(0, 0, 0 ,0.2);
+}
+
+h2 {
+    font-family: georgia;
+    font-size: 15px;
+    animation: titee 5s ease infinite;
+    text-align: right;
+}
+
+  @keyframes titee {
+
+
+from {width: 100%; opacity: 1}
+
+
+to {width: 50%; opacity: 0}
+
+
+}
+
+
