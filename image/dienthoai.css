@@ -1,0 +1,39 @@
+h1 {
+    margin: 25px 0 10px 0;
+    text-align: center;
+    line-height: 1.5em;
+    font-family: georgia;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: green;
+    background-color: pink;
+}
+@keyframes title {
+    0%  {background-color: #EF7126; color: #F9E559;}
+    25%  {background-color: #6F3662; color: #FFFFFF;}
+    50%  {background-color: #9F6164; color: #F8DEBD;}
+    75%  {background-color: #44B3C2; color: #FFFFFF;}
+    100% {background-color: #218C8D; color: #F9E559;}
+}
+
+h1 {
+	animation: title 5s ease infinite;
+}
+body {
+     max-width: 1200px;
+     margin: auto;
+     box-sizing: border-box;
+}
+.anh1 img{
+	width: 120px;
+	height: 200px;
+	float: left;
+	width: 30%;
+	padding: 1%;
+	margin: 5px auto;
+}
+    
+
+       
+    
+    
