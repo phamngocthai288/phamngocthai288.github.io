@@ -50,17 +50,16 @@ float: left;
 h2 {
     font-family: georgia;
     font-size: 15px;
-    animation: titee 5s ease infinite;
     text-align: right;
 }
 
   @keyframes titee {
 
 
-from {width: 100%; opacity: 1}
+from {width: 80%; opacity: 1}
 
 
-to {width: 50%; opacity: 0}
+to {width: 40%; opacity: 0}
 
 
 }
