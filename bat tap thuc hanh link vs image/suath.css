@@ -1,0 +1,27 @@
+h1 {
+    font-size: 40px;
+    text-align: center;
+
+}
+span {
+	color: blue;
+}
+img {
+	width: 200px;
+	height: 200px;
+
+
+}
+.sanpham {
+	float: left;
+	padding: 15px;
+}
+a {
+	margin: 30px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: blue;
+}
