@@ -23,6 +23,10 @@ body {
 	background-color:  rgba(255, 0, 0, 0.62);
 
 }
+.menu form {
+	text-indent: 30%;
+	padding: 1%;
+}
 .menu a {
 	font-size: 20px;
 	margin: 10px;
@@ -31,75 +35,21 @@ body {
 	transition: color .2s ease;
 	text-transform: uppercase;
 }
-.menu form {
-	text-indent: 30%;
-	padding: 1%;
-}
 .menu a:hover {
    color: white;
 }
 .gioithieu-banner2 img {
 	width: 100%;
-	height: 780px;
+	height: 1752px;
 	margin: -1px;
 	position: relative;
-
-
-
-}
-.gioithieu {
-	position: absolute;
-	top: 54%;
-	left: 8%;
-}
-.gioithieu h1 {
-	font-size: 40px;
-	font-style: italic;
-	position: relative;
-	text-align: center;
-	left: -4%;
-	margin: -1%;
-	color: yellow;
-}
-.gioithieu img {
-	width: 25.6%;
-	height: 200px;
-	position: relative;
-	float: left;
-	top: 20%;
-	padding: 5%;
-	margin: auto;
-	left: -6%;
-
-}
-.gioithieu h2 {
-	font-size: 23px;
-	padding: -2%;
-	color: white;
-
-
-}
-.gioithieu p {
-	font-size: 17px;
-	color: white;
-	margin: 1%;
-}
-.tt {
-	position: absolute;
-	left: 72%;
-
-}
-.tt a {
-	position: relative;
-	color: black;
-	font-size: 20px;
 }
 .menu-gioithieu {
 	position: relative;
 }
 .menu-gioithieu img {
 	width: 100%;
-	height: auto;
+	height: 1800px;
 	margin: -2px;
 	position: relative;
 }
@@ -116,13 +66,13 @@ body {
 }
 .thucdon {
 	position: absolute;
-	bottom: 85%;
+	bottom: 91%;
 	left: 17%;
 
 }
 .vitquay {
 	position: absolute;
-	bottom: 60%;
+	bottom: 70%;
 	left: 12%;
 }
 .vitquay img {
@@ -134,17 +84,13 @@ body {
 }
 .loivit {
 	position: absolute;
-	bottom: 49%;
-	left: 13%;
+	bottom: 42%;
+	left: 1%;
 }
 .loivit p {
-	font-size: 20px;
+	font-size: 19px;
 	color: white;
 
-}
-.loivit a {
-	font-size: 25px;
-	color: black;
 }
 .diachi {
 	position: absolute;
@@ -162,14 +108,14 @@ body {
 }
 .hopthu {
 	position: absolute;
-	bottom: 38%;
+	bottom: 30%;
 	left: 62%;
 	color: yellow;
 	font-size: 20px;
 }
 .bando {
 	position: absolute;
-	bottom: 7%;
+	bottom: 10%;
 	left: 62%;
 	color: yellow;
 	font-size: 20px;
@@ -193,7 +139,7 @@ body {
 }
 .cauket {
 	position: absolute;
-	bottom: 8%;
+	bottom: 12%;
 	left: 3%;
 	font-size: 20px;
 	color: rgba(204, 255, 0, 0.83);
