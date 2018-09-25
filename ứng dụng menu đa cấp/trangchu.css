@@ -43,57 +43,52 @@ body {
 	height: 780px;
 	margin: -1px;
 	position: relative;
-
-
-
+}
+.gioithieu-banner2 {
+ position: relative;
+}
+.gioithieu h1 {
+	position: relative;
+	color: yellow;
+	font-size: 50px;
+	font-style: italic;
+	text-align: center;
+	color: yellow;
+	padding: 15px;
 }
 .gioithieu {
 	position: absolute;
-	top: 54%;
-	left: 8%;
+	top: -1%;
+	left: 32%;
 }
-.gioithieu h1 {
-	font-size: 40px;
-	font-style: italic;
+.anhquan img {
+	width: 22%;
+	height: 250px;
 	position: relative;
-	text-align: center;
-	left: -4%;
-	margin: -1%;
+	padding: 1%;
+	margin: auto;
+}
+.anhquan {
+	position: absolute;
+	top: 30%;
+	color: white;
+}
+.anhquan h2 {
+	font-size: 25px;
+
+}
+.anhquan a {
+	text-indent: 30%;
 	color: yellow;
 }
-.gioithieu img {
-	width: 25.6%;
-	height: 200px;
-	position: relative;
-	float: left;
-	top: 20%;
-	padding: 5%;
-	margin: auto;
-	left: -6%;
-
-}
-.gioithieu h2 {
-	font-size: 23px;
-	padding: -2%;
-	color: white;
 
 
-}
-.gioithieu p {
-	font-size: 17px;
-	color: white;
-	margin: 1%;
-}
-.tt {
-	position: absolute;
-	left: 72%;
 
-}
-.tt a {
-	position: relative;
-	color: black;
-	font-size: 20px;
-}
+
+
+
+
+
 .menu-gioithieu {
 	position: relative;
 }

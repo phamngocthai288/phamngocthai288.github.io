@@ -21,10 +21,7 @@ body {
 	top: 5%;
 	left: 44%;
 	background-color:  rgba(255, 0, 0, 0.62);
-}
-.menu form {
-	text-indent: 30%;
-	padding: 1%;
+
 }
 .menu a {
 	font-size: 20px;
@@ -34,62 +31,54 @@ body {
 	transition: color .2s ease;
 	text-transform: uppercase;
 }
+.menu form {
+	text-indent: 30%;
+	padding: 1%;
+}
 .menu a:hover {
    color: white;
 }
 .gioithieu-banner2 img {
 	width: 100%;
-	height: 1580px;
+	height: 1512px;
 	margin: -1px;
 	position: relative;
-
-
-
 }
-.gioithieu {
-	position: absolute;
-	top: 48%;
-	left: 8%;
+.gioithieu-banner2 {
+ position: relative;
 }
-.tieude {
-	position: absolute;
-	top: 49%;
-	left: 38%;
-
-}
-.tieude h1 {
-	font-size: 20px;
+.gioithieu h1 {
 	position: relative;
 	color: yellow;
+	font-size: 50px;
+	font-style: italic;
+	text-align: center;
+	color: yellow;
+	padding: 15px;
 }
 .gioithieu {
 	position: absolute;
-	top: 55%;
-	left: 1%;
+	top: -2%;
 	color: white;
-	font-size: 18px;
+
 }
-.anhquan {
-	position: absolute;
-	top: 86%;
-	left: 25%;
-	width: 50%;
+.gioithieu img {
+	width: 22%;
+	height: 250px;
+	position: relative;
+	padding: 1%;
+	margin: auto;
 }
-.anhquan img {
-	width: 100%;
-	height: 400px;
+
 }
-.gioithieu2 {
-	position: absolute;
-	bottom: -110%;
-	color: white;
-	font-size: 18px;
-	left: 1%;
+.gioithieu h2 {
+	font-size: 25px;
+
 }
 .diachi {
 	position: absolute;
-	top: 216%;
-	left: 4%;
+	bottom: -39%;
+	left: 3%;
 
 }
 .diachi h1 {
@@ -102,27 +91,19 @@ body {
 }
 .hopthu {
 	position: absolute;
-	bottom: -127%;
-
-	left: 60%;
+	bottom: -15%;
+	left: 62%;
 	color: yellow;
 	font-size: 20px;
 }
 .bando {
 	position: absolute;
-	bottom: -180%;
-	left: 60%;
+	bottom: -51%;
+	left: 62%;
 	color: yellow;
 	font-size: 20px;
 }
-.cauket {
-	position: absolute;
-	top: 263%;
-	left: 3%;
-	font-size: 20px;
-	color: rgba(204, 255, 0, 0.83);
-	}
-	.backtotop {
+.backtotop {
 	bottom: 15px;
     position: fixed;
     right: 15px;
@@ -139,3 +120,13 @@ body {
     cursor: pointer;
     font-family: Arial;
 }
+.cauket {
+	position: absolute;
+	bottom: -52%;
+	left: 3%;
+	font-size: 20px;
+	color: rgba(204, 255, 0, 0.83);
+}
+
+
+

@@ -44,34 +44,32 @@ body {
 	margin: -1px;
 	position: relative;
 }
+.gioithieu-banner2 {
+	position: relative;
+}
 .thongtindatban {
 	position: absolute;
-	top: 53%;
-	left: 8%;
+	top: 1%;
+	left: 20%;
 }
 .thongtindatban h1 {
 	color: yellow;
 	font-style: italic;
-	font-size: 40px;
 }
 .thongtin1 {
 	color: white;
-	font-size: 20px;
-
 }
-.nhap1 {
-	position: absolute;
-	top: 83%;
-	left: 20%;
-}
-.nhap1 p {
+.nhap1 label { 
 	color: yellow;
-	font-size: 20px;
-	font-family: Georgia;
+	font-size: 16px;
+}
+.nutdatban {
+	    position: absolute;
+    left: 43%;
 }
 .diachi {
 	position: absolute;
-	bottom: -131%;
+	bottom: 22%;
 	left: 3%;
 
 }
@@ -85,14 +83,14 @@ body {
 }
 .hopthu {
 	position: absolute;
-	bottom: -96%;
+	bottom: 38%;
 	left: 62%;
 	color: yellow;
 	font-size: 20px;
 }
 .bando {
 	position: absolute;
-	bottom: -151%;
+	bottom: 7%;
 	left: 62%;
 	color: yellow;
 	font-size: 20px;
@@ -116,26 +114,9 @@ body {
 }
 .cauket {
 	position: absolute;
-	bottom: -152%;
+	bottom: 8%;
 	left: 3%;
 	font-size: 20px;
 	color: rgba(204, 255, 0, 0.83);
 
-}
-.nutdatban input {
-	color: red;
-    padding: 9px 30px 4px 30px;
-    border-radius: 0px;
-    background: yellow;
-    border: none;
-    border-bottom: 3px solid #c16f1b;
-    text-transform: uppercase;
-    font-size: 17px;
-    margin-left: 145px;
-    font-family: georgia;
-}
-.nutdatban {
-	position: absolute;
-	top: 170%;
-	left: 26%;
 }

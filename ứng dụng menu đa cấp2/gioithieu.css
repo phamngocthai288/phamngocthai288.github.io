@@ -21,10 +21,7 @@ body {
 	top: 5%;
 	left: 44%;
 	background-color:  rgba(255, 0, 0, 0.62);
-}
-.menu form {
-	text-indent: 30%;
-	padding: 1%;
+
 }
 .menu a {
 	font-size: 20px;
@@ -34,108 +31,9 @@ body {
 	transition: color .2s ease;
 	text-transform: uppercase;
 }
+.menu form {
+	text-indent: 30%;
+	padding: 1%;
+}
 .menu a:hover {
    color: white;
-}
-.gioithieu-banner2 img {
-	width: 100%;
-	height: 1580px;
-	margin: -1px;
-	position: relative;
-
-
-
-}
-.gioithieu {
-	position: absolute;
-	top: 48%;
-	left: 8%;
-}
-.tieude {
-	position: absolute;
-	top: 49%;
-	left: 38%;
-
-}
-.tieude h1 {
-	font-size: 20px;
-	position: relative;
-	color: yellow;
-}
-.gioithieu {
-	position: absolute;
-	top: 55%;
-	left: 1%;
-	color: white;
-	font-size: 18px;
-}
-.anhquan {
-	position: absolute;
-	top: 86%;
-	left: 25%;
-	width: 50%;
-}
-.anhquan img {
-	width: 100%;
-	height: 400px;
-}
-.gioithieu2 {
-	position: absolute;
-	bottom: -110%;
-	color: white;
-	font-size: 18px;
-	left: 1%;
-}
-.diachi {
-	position: absolute;
-	top: 216%;
-	left: 4%;
-
-}
-.diachi h1 {
-	font-size: 30px;
-	color: yellow;
-
-}
-.diachi p {
-	color: white;
-}
-.hopthu {
-	position: absolute;
-	bottom: -127%;
-
-	left: 60%;
-	color: yellow;
-	font-size: 20px;
-}
-.bando {
-	position: absolute;
-	bottom: -180%;
-	left: 60%;
-	color: yellow;
-	font-size: 20px;
-}
-.cauket {
-	position: absolute;
-	top: 263%;
-	left: 3%;
-	font-size: 20px;
-	color: rgba(204, 255, 0, 0.83);
-	}
-	.backtotop {
-	bottom: 15px;
-    position: fixed;
-    right: 15px;
-    z-index: 100;
-    background: rgba(0,0,0,.6);
-    color: #fff;
-    font-size: 18px;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    line-height: 29px;
-    text-align: center;
-    cursor: pointer;
-    font-family: Arial;
-}

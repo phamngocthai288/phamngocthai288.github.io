@@ -13,8 +13,9 @@ img {
 
 }
 .sanpham {
-	float: left;
 	padding: 15px;
+	width: 50%;
+	float: left;
 }
 a {
 	margin: 30px;
@@ -24,4 +25,7 @@ a {
 }
 a:hover {
 	color: blue;
+}
+.tatca {
+	float: left;
 }

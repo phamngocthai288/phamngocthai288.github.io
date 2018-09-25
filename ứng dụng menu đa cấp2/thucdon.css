@@ -43,12 +43,16 @@ body {
 	height: 1752px;
 	margin: -1px;
 	position: relative;
-
+}
+.gioithieu-banner2 {
+	position: relative;
 }
 .thucdon {
 	position: absolute;
-    top: 49%;
-    left: 30%;
+	
+}
+
+	
 }
 .thucdon h1 {
 	font-size: 35px;

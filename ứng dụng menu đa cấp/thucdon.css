@@ -45,9 +45,12 @@ body {
 	position: relative;
 
 }
+.gioithieu-banner2 {
+	position: relative;
+}
 .thucdon {
 	position: absolute;
-    top: 49%;
+    top: -1%;
     left: 30%;
 }
 .thucdon h1 {
@@ -61,7 +64,7 @@ body {
 	padding: 4%;
 	float: left;
 	position: absolute;
-	top: 62%;
+	top: 5%;
 
 
 }
@@ -84,7 +87,7 @@ body {
 	height: auto;
 	padding: 4%;
 	float: left;
-	top: 62%;
+	top: 5%;
 	left: 32%;
 	position: absolute;
 
@@ -107,7 +110,7 @@ body {
 	height: auto;
 	padding: 4%;
 	float: left;
-	top: 62%;
+	top: 5%;
 	left: 62%;
 	position: absolute;
 
@@ -130,7 +133,7 @@ body {
 	height: auto;
 	padding: 4%;
 	float: left;
-	top: 103%;
+	top: 19%;
 	
 	position: absolute;
 
@@ -153,7 +156,7 @@ body {
 	height: auto;
 	padding: 4%;
 	float: left;
-	top: 103%;
+	top: 19%;
 	left: 32%;
 	position: absolute;
 
@@ -176,7 +179,7 @@ body {
 	height: auto;
 	padding: 4%;
 	float: left;
-	top: 103%;
+	top: 19%;
 	left: 62%;
 	position: absolute;
 
@@ -199,7 +202,7 @@ body {
 	height: auto;
 	padding: 4%;
 	float: left;
-	top: 141%;
+	top: 33%;
 	position: absolute;
 
 
@@ -221,7 +224,7 @@ body {
 	height: auto;
 	padding: 4%;
 	float: left;
-	top: 141%;
+	top: 33%;
 	left: 32%;
 	position: absolute;
 
@@ -244,7 +247,7 @@ body {
 	height: auto;
 	padding: 4%;
 	float: left;
-	top: 141%;
+	top: 33%;
 	left: 62%;
 	position: absolute;
 
@@ -267,7 +270,7 @@ body {
 	height: auto;
 	padding: 4%;
 	float: left;
-	top: 182%;
+	top: 47%;
 	position: absolute;
 
 
@@ -289,7 +292,7 @@ body {
 	height: auto;
 	padding: 4%;
 	float: left;
-	top: 182%;
+	top: 47%;
 	left: 32%;
 	position: absolute;
 
@@ -312,7 +315,7 @@ body {
 	height: auto;
 	padding: 4%;
 	float: left;
-	top: 182%;
+	top: 47%;
 	left: 62%;
 	position: absolute;
 
@@ -332,7 +335,7 @@ body {
 }
 .diachi {
 	position: absolute;
-	top: 245%;
+	top: 69%;
 	left: 4%;
 
 }
@@ -346,7 +349,7 @@ body {
 }
 .hopthu {
 	position: absolute;
-	bottom: -154%;
+	top: 65%;
 
 	left: 60%;
 	color: yellow;
@@ -354,14 +357,14 @@ body {
 	}
 	.bando {
 	position: absolute;
-	bottom: -205%;
+	top: 72%;
 	left: 60%;
 	color: yellow;
 	font-size: 20px;
 }
 .cauket {
 	position: absolute;
-	top: 284%;
+	top: 84%;
 	left: 3%;
 	font-size: 20px;
 	color: rgba(204, 255, 0, 0.83);
