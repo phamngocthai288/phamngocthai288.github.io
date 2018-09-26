@@ -9,12 +9,13 @@ span {
 img {
 	width: 200px;
 	height: 200px;
+	float: left;
 
 
 }
 .sanpham {
 	padding: 15px;
-	width: 50%;
+	width: 30%;
 	float: left;
 }
 a {

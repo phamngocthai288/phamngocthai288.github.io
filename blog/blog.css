@@ -1,0 +1,46 @@
+body {
+	max-width: 1200px;
+	height: auto;
+	margin: auto;
+	box-sizing: border-box;
+}
+header h1 { 
+	font-size: 30px;
+	text-align: center;
+	font-style: italic;
+
+}
+nav {
+	background-color: rgba(16, 0, 255, 0.62);
+	text-indent: 30px;
+	font-size: 30px;
+	
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+	margin: 2%;
+}
+nav a:hover {
+	background-color: red;
+}
+.content h2 {
+	font-size: 18px;
+}
+.content a {
+	text-decoration: none;
+    font-size: 27px;
+    color: black;
+}
+.content a:hover {
+	color: red;
+}
+footer {
+	text-align: center;
+}
+footer {
+	background-color: #e6e9ee;
+	
+
+}
