@@ -16,16 +16,27 @@ body {
 
 
 }
+.menu > li {
+	float: left;
+	margin-right: 15px;
+
+}
+.menu > li > ul {
+    top: 6%;
+    display: none;
+    position: absolute;
+    background-color:  rgba(255, 0, 0, 0.62);
+    }
+    .menu > li:hover > ul {
+    display: block;
+ }
 .menu {
 	position: absolute;
 	top: 5%;
 	left: 44%;
 	background-color:  rgba(255, 0, 0, 0.62);
+	list-style-type: none;
 
-}
-.menu form {
-	text-indent: 30%;
-	padding: 1%;
 }
 .menu a {
 	font-size: 20px;
@@ -34,6 +45,10 @@ body {
 	color: yellow;
 	transition: color .2s ease;
 	text-transform: uppercase;
+}
+.menu form {
+	text-indent: 30%;
+	padding: 1%;
 }
 .menu a:hover {
    color: white;

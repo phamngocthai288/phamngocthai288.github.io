@@ -21,6 +21,7 @@ body {
 	top: 5%;
 	left: 44%;
 	background-color:  rgba(255, 0, 0, 0.62);
+	list-style-type: none;
 
 }
 .menu a {
@@ -30,6 +31,7 @@ body {
 	color: yellow;
 	transition: color .2s ease;
 	text-transform: uppercase;
+
 }
 .menu form {
 	text-indent: 30%;
@@ -37,6 +39,19 @@ body {
 }
 .menu a:hover {
    color: white;
+}
+.menu > li {
+	float: left;
+	margin-right: 15px;
+}
+.menu > li > ul {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    background-color:  rgba(255, 0, 0, 0.62);
+    }
+    .menu > li:hover > ul {
+    display: block;
 }
 .gioithieu-banner2 img {
 	width: 100%;
