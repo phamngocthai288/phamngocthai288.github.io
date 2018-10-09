@@ -3,6 +3,8 @@ body {
 	height: auto;
 	margin: auto;
 	box-sizing: border-box;
+	font-family: 'Mali', cursive;
+
 }
 header h1 { 
 	font-size: 30px;

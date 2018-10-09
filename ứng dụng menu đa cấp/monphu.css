@@ -3,6 +3,8 @@ body {
 	height: auto;
 	margin: auto;
 	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+
 
 
 
@@ -91,7 +93,7 @@ body {
 }
 .monan-1 p {
 	font-family: Verdana, sans-serif;
-	font-size: 1.2vmax;
+	font-size: 100%;
 	padding: 0.5%;
 	color: white;
 	text-indent: 15%;
@@ -115,7 +117,7 @@ body {
 }
 .monan-2 p {
 	font-family: Verdana, sans-serif;
-	font-size: 1.2vmax;
+	font-size: 100%;
 	padding: 0.5%;
 	color: white;
 	text-indent: 15%;
@@ -138,7 +140,7 @@ body {
 }
 .monan-3 p {
 	font-family: Verdana, sans-serif;
-	font-size: 1.2vmax;
+	font-size: 100%;
 	padding: 0.5%;
 	color: white;
 	text-indent: 15%;
@@ -161,7 +163,7 @@ body {
 }
 .monan-4 p {
 	font-family: Verdana, sans-serif;
-	font-size: 1.2vmax;
+	font-size: 100%;
 	padding: 0.5%;
 	color: white;
 	text-indent: 15%;
@@ -184,7 +186,7 @@ body {
 }
 .monan-5 p {
 	font-family: Verdana, sans-serif;
-	font-size: 1.2vmax;
+	font-size: 100%;
 	padding: 0.5%;
 	color: white;
 	text-indent: 15%;
@@ -207,7 +209,7 @@ body {
 }
 .monan-6 p {
 	font-family: Verdana, sans-serif;
-	font-size: 1.2vmax;
+	font-size: 100%;
 	padding: 0.5%;
 	color: white;
 	text-indent: 15%;
@@ -229,7 +231,7 @@ body {
 }
 .monan-7 p {
 	font-family: Verdana, sans-serif;
-	font-size: 1.2vmax;
+	font-size: 100%;
 	padding: 0.5%;
 	color: white;
 	text-indent: 15%;
@@ -252,7 +254,7 @@ body {
 }
 .monan-8 p {
 	font-family: Verdana, sans-serif;
-	font-size: 1.2vmax;
+	font-size: 100%;
 	padding: 0.5%;
 	color: white;
 	text-indent: 15%;
@@ -275,7 +277,7 @@ body {
 }
 .monan-9 p {
 	font-family: Verdana, sans-serif;
-	font-size: 1.2vmax;
+	font-size: 100%;
 	padding: 0.5%;
 	color: white;
 	text-indent: 15%;
@@ -297,7 +299,7 @@ body {
 }
 .monan-10 p {
 	font-family: Verdana, sans-serif;
-	font-size: 1.2vmax;
+	font-size: 100%;
 	padding: 0.5%;
 	color: white;
 	text-indent: 15%;
@@ -320,7 +322,7 @@ body {
 }
 .monan-11 p {
 	font-family: Verdana, sans-serif;
-	font-size: 1.2vmax;
+	font-size: 100%;
 	padding: 0.5%;
 	color: white;
 	text-indent: 15%;
@@ -343,7 +345,7 @@ body {
 }
 .monan-12 p {
 	font-family: Verdana, sans-serif;
-	font-size: 1.2vmax;
+	font-size: 100%;
 	padding: 0.5%;
 	color: white;
 	text-indent: 15%;

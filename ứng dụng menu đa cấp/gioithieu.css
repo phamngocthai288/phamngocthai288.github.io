@@ -3,6 +3,8 @@ body {
 	height: auto;
 	margin: auto;
 	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+
 
 
 
@@ -61,6 +63,7 @@ body {
 }
 .gioithieu-banner2 {
  position: relative;
+
 }
 .gioithieu h1 {
 	position: relative;
@@ -86,8 +89,8 @@ body {
 }
 
 }
-.gioithieu h2 {
-	font-size: 25px;
+.gioithieu  {
+	font-size: 18px;
 
 }
 .diachi {
@@ -142,6 +145,8 @@ body {
 	font-size: 20px;
 	color: rgba(204, 255, 0, 0.83);
 }
-
+.over {
+	margin-left: 2%;
+}
 
 

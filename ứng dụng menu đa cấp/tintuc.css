@@ -3,6 +3,8 @@ body {
 	height: auto;
 	margin: auto;
 	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+
 
 
 
@@ -99,7 +101,7 @@ body {
 }
 .loivit {
 	position: absolute;
-	bottom: 42%;
+	bottom: 38%;
 	left: 1%;
 }
 .loivit p {

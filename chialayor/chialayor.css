@@ -1,0 +1,142 @@
+body {
+ position: absolute;
+ margin-left: 10%;
+}
+}
+.menu {
+    
+    padding: 4%;
+    direction: none;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 7%;
+    position: relative;
+    
+
+
+    }
+    .menu-2 {
+    margin-left: 60%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu-1 a {
+    font-size: 20px;
+    float: left;
+}
+.menu a {
+    margin-left: 4%;
+    color: black;
+}
+.menu-1 {
+    font-family: 'Charmonman', cursive;
+    margin-left: 8%; 
+    }
+a:hover {
+    color: pink;
+}
+.banner-img1 {
+    max-width: 100%;
+    height: 500px;
+    margin-left: 5%;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 5%;
+
+}
+.img {
+    width: 18%;
+    float: left;
+    padding: 1%;
+    margin: 2px;
+}
+.img img {
+    width: 100%;
+}
+.img h4 {
+    color: red;
+    text-indent: 16px;
+}
+.menu {
+    padding-top: 7%;
+}
+.dior {
+        width: 100%;
+    background-color: #EEEEEE;
+    height: 800px;
+    margin-left: -1%;
+    position: absolute;
+}
+.gach {
+    width: 5px;
+    height: 54px;
+    background-color: red;
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    }
+    .gach2 {
+    width: 5px;
+    height: 54px;
+    background-color: red;
+    position: absolute;
+    top: 13%;
+    left: 19%;
+}
+.img1 {
+    width: 25%;
+    height: 700px;
+    background-color: white;
+    margin-left: 7%;
+    margin-top: 3%;
+    float: left;
+    position: relative;
+}
+.gach3 {
+    width: 4px;
+    height: 58px;
+    background-color: red;
+    position: absolute;
+    left: 3%;
+    }
+    .gach4 {
+    width: 4px;
+    height: 58px;
+    background-color: red;
+    position: absolute;
+    left: 55%;
+}
+.img1 p {
+    text-indent: 56px;
+    font-size: 23px;
+    }
+    .icon {
+    position: absolute;
+    top: 3%;
+    left: 69%;
+}
+.rum {
+    width: 90%;
+    height: 190px;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    }
+    .rum img {
+    width: 130px;
+    height: 170px;
+}
+.rum p {
+    font-size: 17px;
+    text-indent: 15px;
+    }
+h4 {
+    text-indent: 16px;
+    color: red;
+}
+i.fas.fa-star.fa-2x {
+    color: yellow;
+}

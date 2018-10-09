@@ -3,7 +3,7 @@ body {
 	height: auto;
 	margin: auto;
 	box-sizing: border-box;
-	font-family: FontAwesome;
+	font-family: 'Roboto', sans-serif;
 
 
 
@@ -60,6 +60,7 @@ body {
 	margin: -1px;
 	position: relative;
 }
+
 .gioithieu-banner2 {
  position: relative;
 }
@@ -90,12 +91,19 @@ body {
 	color: white;
 }
 .anhquan h2 {
-	font-size: 25px;
+	font-size: 18px;
+	margin-left: 2%;
 
 }
+.anhquan p {
+	font-size: 15px;
+	margin-left: 2%;
+
+	}
 .anhquan a {
 	text-indent: 30%;
 	color: yellow;
+	margin-left: 2%
 }
 
 
