@@ -54,6 +54,7 @@ a:hover {
 }
 .img img {
     width: 100%;
+    position: relative;
 }
 .img h4 {
     color: red;
@@ -63,10 +64,10 @@ a:hover {
     padding-top: 7%;
 }
 .dior {
-        width: 100%;
+        width: 86%;
     background-color: #EEEEEE;
     height: 800px;
-    margin-left: -1%;
+    margin-left: 0%;
     position: absolute;
 }
 .gach {
@@ -109,7 +110,7 @@ a:hover {
     left: 55%;
 }
 .img1 p {
-    text-indent: 56px;
+    text-indent: 40px;
     font-size: 23px;
     }
     .icon {
@@ -139,4 +140,41 @@ h4 {
 }
 i.fas.fa-star.fa-2x {
     color: yellow;
+}
+.icon2 {
+    position: relative;
+
+}
+.iconcon i {
+    position: absolute;
+        position: absolute;
+    top: 41%;
+    font-size: 47px;
+    display: none;
+    left: 7%;
+}
+.icon2:hover i {
+    display: block;
+}
+.mua {
+    width: 70%;
+    height: 44px;
+    position: absolute;
+    background-color: #F34E6B;
+    top: 87%;
+    left: 6%;
+    display: none;
+    }
+    .mua i {
+    top: 12%;
+    position: absolute;
+}
+.mua p {
+    position: absolute;
+    top: 2%;
+    left: 33%;
+    color: white;
+}
+.img .icon2:hover .mua {
+    display: block;
 }
