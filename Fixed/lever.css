@@ -1,164 +1,175 @@
-body {
-  color: #878787;
-  font-family: Roboto, sans-serif;
-  left: 0;
-  line-height: 1.35;
-  margin: 0;
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
   overflow: hidden;
   position: relative;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  transition: left 0.3s ease-in-out;
-}
-  &.panel-open {
-    left: -250px
-  }
-}
-.container
-  @extend %cf {
-  min-height: 1000px
-}
-a {
-  outline: 0
-  text-decoration: none 
+  text-align: center;
+  cursor: default;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
 }
-header 
-  @extend %cf {
-  color: #fff;
-  padding: 3em 5%;
+
+.hovereffect img {
+  display: block;
   position: relative;
-  width: 90%;
-  z-index: 2;
 }
-.menu-toggle 
-  @extend %cf {
-  cursor: pointer;
-  float: right;
-  font-size: 0.875rem;
 
-  transition: all 0.3s ease-in-out;
-}
-  &.open {
-    opacity: 0.5
-  }
-}
-.menu-toggle-grippy {
-  border-bottom: 5px solid #fff;
-  border-top: 5px solid #fff;
-  float: left;
-  line-height: 0;
-  margin-right: 1em;
-  padding: 5px 0;
-  text-indent: -999em;
-  width: 35px; }
-
-  &:after {
-    background: #fff;
-    content: '';
-    display: block;
-    height: 5px;
-
-.menu-toggle-label {
-  float: left;
-  font-weight: 700;
-  height: 25px;
-  letter-spacing: 1px;
-  line-height: 25px;
+.hovereffect h2 {
   text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  padding: 10px;
+}
 
-.hidden-panel
-  background: #333
-  color: #666
-  font-size: 0.875rem
-  height: 100%
-  position: absolute
-  right: -250px
-  top: 0
-  width: 250px
-  a
-    color: #999
-    transition: color 0.3s ease-out
-    &:hover
-      color: #fff
+.hovereffect:hover h2 {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: translate3d(-50%,-50%,0) scale3d(0.8,0.8,1);
+  transform: translate3d(-50%,-50%,0) scale3d(0.8,0.8,1);
+}
 
-.hidden-panel-close
-  color: #666
-  cursor: pointer
-  position: absolute
-  right: 20px
-  top: 3.7em
-  transition: color 0.3s ease-in-out
-  &:hover
-    color: #fff
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+}
 
-.hidden-panel-content
-  padding: 3.65em 10%
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
 
-.hidden-panel-nav
-  border-bottom: 1px solid #666
-  border-bottom: 1px solid rgba(#666, 0.25)
-  margin-bottom: 1.5em
-  padding-bottom: 1.5em
-  text-transform: uppercase
-  h3
-    letter-spacing: 1px
-    margin-bottom: 1em
-  ul
-    list-style: none
-    font-weight: 600
-    margin: 0
-    padding: 0
-  li
-    padding: 0.25em 0
+.hovereffect hr {
+  width: 40%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  border: 1px solid #FFF;
+}
 
-.hidden-panel-text
-  line-height: 1.5
-  p
-    margin-bottom: 1.5em
-    &:last-child
-      margin-bottom: 0
+.hovereffect  hr:nth-child(3) {
+  -webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,90deg) scale3d(0,0,1);
+  transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,90deg) scale3d(0,0,1);
+}
 
-.hidden-panel-credits
-  font-size: 12px
-  font-size: 0.75rem
-  line-height: 1.5
-  span
-    display: block
-    margin-bottom: 0.15em
+.hovereffect  hr:nth-child(4) {
+  -webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,180deg) scale3d(0,0,1);
+  transform: translate3d(-50%,-50%,0) rotate3d(0,0,1, 180deg) scale3d(0,0,1);
+}
 
-.banner
-  background: #f5756c
-  background: linear-gradient(#f5756c,#fd5480),#f5756c
-  box-sizing: border-box
-  height: 100%
-  left: 0
-  padding: 5em 0
-  position: absolute
-  text-align: center
-  top: 0
-  width: 100%
-  z-index: 1
-  h1
-    color: #fff
-    font-family: 'Dancing Script'
-    font-size: 4.375rem
-    margin-bottom: 1em
-  h2
-    color: #fff
-    font-size: 2rem
-    font-weight: 300
-    line-height: 1.5
-    margin: 0 auto
-    width: 50%
+.hovereffect h2, .hovereffect hr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
+  -webkit-transform-origin: 50%;
+  -ms-transform-origin: 50%;
+  transform-origin: 50%;
+  background-color: transparent;
+  margin: 0px;
+}
 
-%cf:before, %cf:after
-  content: ''
-  display: table
+.set1, .set2 {
+  left: 50%;
+  position: absolute;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
+  -webkit-transform-origin: 50%;
+  -ms-transform-origin: 50%;
+  transform-origin: 50%;
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+}
 
-%cf:after
-  clear: both
+.set1 {
+  top: 40%;
+}
+
+.set2 {
+  top: 60%;
+}
+
+.hovereffect p {
+  width: 30%;
+  text-transform: none;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.hovereffect p a {
+  color: #fff;
+}
+
+.hovereffect p a:hover,
+.hovereffect p a:focus {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+.hovereffect  a i {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.set1 a:first-child i {
+  -webkit-transform: translate3d(-60px,-60px,0);
+  transform: translate3d(-60px,-60px,0);
+}
+
+.set1 a:nth-child(2) i {
+  -webkit-transform: translate3d(60px,-60px,0);
+  transform: translate3d(60px,-60px,0);
+}
+
+.set2 a:first-child i {
+  -webkit-transform: translate3d(-60px,60px,0);
+  transform: translate3d(-60px,60px,0);
+}
+
+.set2 a:nth-child(2) i {
+  -webkit-transform: translate3d(60px,60px,0);
+  transform: translate3d(60px,60px,0);
+}
+
+.hovereffect:hover hr:nth-child(3) {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-90deg) scale3d(1,1,1);
+  transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-90deg) scale3d(1,1,1);
+}
+
+.hovereffect:hover hr:nth-child(4) {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-180deg) scale3d(1,1,1);
+  transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-180deg) scale3d(1,1,1);
+}
+
+.hovereffect:hover .set1 i:empty, .hovereffect:hover .set2 i:empty {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
