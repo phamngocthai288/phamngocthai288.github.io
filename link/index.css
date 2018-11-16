@@ -1,0 +1,16 @@
+* {
+	width: 1000px;
+	height: auto;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+.tea-1 img {
+	width: 20%;
+	height: auto;
+	
+	margin: auto;
+}
+.tea-1 {
+	float: left;
+}
