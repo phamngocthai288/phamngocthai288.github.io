@@ -50,12 +50,12 @@ function number0(){
 	s=s+x;
 	document.getElementById("caculator").innerText = s; 
 }
-function buttononclear(){
+function xoahet(){
 	s='';
 	document.getElementById("caculator").innerText = s; 
 	document.getElementById("caculator1").innerText = '';
 }
-function buttonondel(){
+function xoa1(){
 	x=s.slice(0,s.length-1);
 	s=x;
 	document.getElementById("caculator").innerText = s; 
@@ -71,7 +71,7 @@ function phantram(){
 	document.getElementById("caculator").innerText = t; 
 	s=s+'/100'
 }
-function buttononmultiplication(){
+function phepnhan(){
 	x='*';s=s+x;
 	document.getElementById("caculator").innerText = s; 
 }
@@ -80,18 +80,40 @@ function phepchia(){
 	s=s+x;
 	document.getElementById("caculator").innerText = s; 
 }
-function canbac3(){
+function phepcong(){
+	x='+';
+	s=s+x;
+	document.getElementById("caculator").innerText = s;
+}
+
+function mu3(){
 	s=s*s*s;
 	x=s;
-	document.getElementById("caculator").innerText = x;
+	document.getElementById("caculator1").innerText = x;
 	
 }
-function buttononsub(){
+function pheptru(){
 	x='-';
 	s=s+x;
 	document.getElementById("caculator").innerText = s; 
 }
-function buttononfinish(){
+function bang(){
 	document.getElementById("caculator1").innerText = eval(s);
 
 }
+function can(){
+	s=Math.sqrt(s);
+	x=s;
+	document.getElementById('caculator1').innerText = x;
+
+}
+var tam = '';
+var count = 0;
+
+function daucham() {
+    x='.';
+    s=s+x;
+    document.getElementById("caculator").innerText = s;
+}
+
+
