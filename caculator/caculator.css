@@ -85,3 +85,40 @@ button.nut2 {
 img {
 	height: 650px;
 }
+.changetheme button {
+    font-size: 12px;
+    position: absolute;
+    top: 9%;
+    left: 42%;
+    width: 96px;
+    height: 21px;
+}
+.wrap 
+{
+    
+    background: white;
+}
+ 
+.highlight 
+{
+    background: #111111;
+
+
+}
+
+.highlight-h1 {
+	color: red;
+}
+.highlight-theme {
+	background: #777777;
+}
+.highlight button {
+	background-color: red;
+
+}
+.highlight-banner {
+	background: url(https://images.pexels.com/photos/747101/pexels-photo-747101.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	 width: 97%;
+	 height: 650px;
+	 position: absolute;
+	 margin: auto;

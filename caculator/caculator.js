@@ -115,5 +115,14 @@ function daucham() {
     s=s+x;
     document.getElementById("caculator").innerText = s;
 }
+function changeTheme() {
+	$(".wrap").toggleClass("highlight");
+	$('h1').toggleClass("highlight-h1");
+	$('.display').toggleClass("highlight-theme");
+	$('.banner').toggleClass('highlight-banner')
+	
+	
 
+
+};
 
