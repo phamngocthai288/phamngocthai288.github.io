@@ -1,0 +1,52 @@
+body {
+	max-width: 1200px;
+	height: auto;
+	margin: auto;
+	box-sizing: border-box;
+	background: black;
+	background: url(https://gunnar.com/wp-content/uploads/2015/01/league.png);
+}
+img {
+	width: 160px;
+	height: 230px;
+}
+.wrap {
+	position: relative;
+	margin: auto;
+	padding: 15px;
+	max-width: 1265px;
+	max-height: 616px;
+	height: 100%;
+}
+.content {
+	position: relative;
+	overflow: auto;
+}
+.grid {
+	float: left;
+	padding: 15px;
+
+}
+.Card {
+	position: relative;
+}
+.Card .back {
+	transform: rotateY(180deg);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.Card:hover .back {
+	transform: rotateY(0deg);
+}
+.Card:hover .front {
+	transform: rotateY(180deg);
+}
+.Card .front {
+	transition: all 1.5s;
+	backface-visibility: hidden;
+}
+.Card .back {
+	transition: all 1.5s;
+	backface-visibility: hidden;
+}

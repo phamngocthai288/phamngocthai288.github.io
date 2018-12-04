@@ -1,0 +1,48 @@
+body {
+	max-width: 1000px;
+	height: 800px;
+	box-sizing: border-box;
+	margin: auto;
+}
+.banner img {
+     width: 100%;
+	height: 400px;
+}
+a {
+	color: green;
+}
+.row a {
+	color: white;
+	background-color: green; 
+
+}
+.thumb2 a {
+	font-size: 10px;
+	color: sienna;
+	background: none;
+
+    border-bottom: 1px solid #f0eef6;
+   
+    border-left: 1px solid #f0eef6;
+    border-right: 1px solid #f0eef6;
+
+
+	}
+.thumb-2 {
+	float: left;
+    
+}
+#thumb-2 {
+	margin-left: 2%;
+	margin-top: 8%;
+}
+.thongbao a{
+	background: none;
+	color: red;
+	font-size: 12px;
+}
+.thongbao {
+	    width: 248px;
+    border: 1px solid #dfdfdf;
+    background: #fdfdfd;
+}
