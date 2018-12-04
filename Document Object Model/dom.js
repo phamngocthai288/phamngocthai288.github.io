@@ -34,17 +34,19 @@ function changeColor() {
 	el[1].style.color= 'yellow';
 	el[2].style.color= 'blue';
 }
+// Execute
 changeColor();
-function changeBgColor() {
-	var ell=document.querySelectorAll('p');
-	ell[0].style.background= 'pink';
-	ell[1].style.background= 'pink';
-	ell[2].style.background= 'pink';
-}
-changeBgColor()
-function copyContent(){
-	var p2= document.getElementById('p2');
-	p1.innerText=p2.innerText;
-}
-copyContent();
 
+// Thay đổi màu nền
+function changeBgColor(x) {
+	document.querySelector('div').style.backgroundColor = x;
+};
+// Execute
+changeBgColor("pink");
+
+// Sao chép nội dung đoạn văn 1,2
+function copyContent(x, y) {
+	document.getElementById(x).innerHTML = document.getElementById(y).innerHTML;
+};
+// Execute
+copyContent('p1', 'p2');
