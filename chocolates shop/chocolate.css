@@ -1,0 +1,263 @@
+body {
+	 font-family: 'PT Sans', sans-serif;
+}
+li {
+	margin-left: 13%;\
+	
+
+}
+a {
+	font-family: 'PT Sans', sans-serif;
+}
+.banner {
+	position: relative;
+}
+.text {
+	position: absolute;
+	top: 35%;
+	left: 28%;
+	font-family: 'Lobster', cursive;
+    text-align: center;
+	color: white;
+}
+.text p {
+	
+	font-family: 'PT Sans', sans-serif;
+}
+.text2 {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+
+}
+.text2 h3 {
+	font-style: initial;
+}
+.row img {
+	width: 200px;
+    height: 200px;
+}
+.row {
+	margin-left: 2%;
+	text-align: justify;
+	font-family: 'PT Sans', sans-serif;
+
+}
+.row p {
+	text-indent: 50px;
+}
+.row h6 {
+	margin-top: -7%;
+}
+.button1 {
+	width: 100px;
+	height: 28px;
+	border-radius: 12px;
+	background-color: white;
+	position: absolute;
+	right: 43%;
+}
+.button1 a {
+	color: black;
+}
+.button1:hover {
+	background-color: blue;
+}
+.text3 {
+	background: url(../chocolates shop/img/noel.jpg);
+}
+.wow {
+  visibility: hidden;
+}
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure {
+	width: 300px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+
+
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.hover01 .column img {
+	width: 300px;
+	height: 200px;
+}
+span {
+	font-family: 'Charmonman', cursive;
+
+}
+.text3 img {
+ width: 50%;
+  height: 400px;"
+}
+.text3 {
+	background-color: #660000;
+}
+.chistmat {
+    width: 50%;
+    height: 400px;
+    float: right;
+    position: relative;
+}
+.chistmat2 {
+    border: solid;
+    width: 95%;
+    height: 380px;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    border-color: white;
+    border-width: 5px;
+    text-align: center;
+    color: white
+}
+.noel {
+   position: absolute;
+   left: 25%;
+   top: 33%;
+   color: #751111;
+}
+h7 {
+    font-family: serif;
+}
+.textt p {
+	font-size: 12px;
+	text-align: left;
+	text-indent: 0;
+}
+
+	.chistmat2 {
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  font-family: 'Press Start 2P', cursive;
+}
+.center{
+  position:absolute;
+  top:0;
+  bottom: 0;left: 0;right: 0;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  .text-center{
+    text-align:center;
+    width:100%;
+  }
+}
+@keyframes blink{
+  0%{
+    border-right-color:transparent;
+  }
+  50%{
+    border-right-color:transparent;
+  }
+  51%{
+    border-right-color:#fff;
+  }
+  100%{
+    border-right-color:#fff;
+  }
+}
+
+canvas{
+  background:none!important;
+  width: 100%;
+  height: 400px;
+ 
+}
+.logo1 img {
+	width: 80px;
+	height: 80px;
+	padding: 1%;
+}
+.logo1 p {
+	font-size: 10px;
+	text-indent: 0;
+
+}
+.logo1 {
+	text-align: center;
+}
+.text4 img {
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+.signup {
+	position: absolute;
+	top: 35%;
+	color: white;
+	text-align: center;
+	left: 45%;
+}
+.signup h2  {
+ font-size: 32px;
+ font-family: cursive; 
+}
+.signup button {
+	background-color: #82b1ff!important;
+}
+.text5 {
+	width: 100%;
+	height: 250px;
+	background: rgba(0, 0, 0, 0.85);
+	text-align: center;
+	color: white;
+	padding-top: 3%;
+}

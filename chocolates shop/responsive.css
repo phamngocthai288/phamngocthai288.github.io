@@ -1,0 +1,89 @@
+@media (max-width: 499px)
+  { .banner img  {
+    height: 300px!important;
+    
+}
+  .banner h2 {
+  	font-size: 15px;
+  }
+  .banner h1 {
+  	font-size: 17px;
+  }
+  .banner p {
+  	font-size: 10px;
+  }
+  .button1 {
+  	width: 50px;
+
+  }
+  .button1 a {
+     font-size: 8px;
+  }
+  .text {
+  	left: 5%;
+  }
+  .text2 h3 {
+  	font-size: 15px;
+  }
+  .text2 p {
+  	font-size: 10px;
+  }
+  .container-fluid img {
+  	width: 50px!important;
+  	height: 50px!important;
+
+  }
+
+  .hover01.column {
+  	height: 100px!important;
+  }
+  .hover01 {
+  	width: 150px!important;
+  	height: 100px!important;
+  	display: flex;
+
+  }
+  .hover01 figure {
+  	width: 80px!important;
+  	height: 80px!important;
+  }
+
+   .hover span {
+   	font-size: 5px;
+   	display: none!important;
+   }
+   .center {
+   	height: 200px!important;
+   }
+   #snow {
+   	height: 200px!important;
+   }
+   .text3 img {
+   	height: 200px!important;
+   }
+   .noel {
+   	left: 13%;
+   }
+   .chistmat {
+   	height: 200px!important
+   }
+   h5 {
+   	font-size: 15px
+   }
+   h7 {
+   	font-size: 13px;
+   }
+   .textt p {
+   	font-size: 9px;
+   }
+   .row img {
+   	height: 300px!important;
+   }
+   .logo1 img {
+   	width: 30px;
+   	height: 30px!important;
+   }
+   .logo1 h4 {
+   	font-size: 15px;
+   }
+}
